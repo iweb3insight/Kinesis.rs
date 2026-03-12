@@ -113,9 +113,9 @@ impl SolanaPathDetector {
             { "encoding": "base64", "outputDataSlice": { "offset": 0, "length": 44 } }
         ]);
 
-        let account_info: GetAccountInfoResponse = self.call_rpc("getAccountInfo", params).await?;
+        let resp: GetAccountInfoResponse = self.call_rpc("getAccountInfo", params).await?;
         
-        let value = account_info.value.ok_or_else(|| anyhow!("Token account not found: {}", token_address))?;
+        let value = resp.value.ok_or_else(|| anyhow!("Token account not found: {}", token_address))?;
         let token_program_id = Pubkey::from_str(&value.owner)?;
         
         // Dispatch based on token program

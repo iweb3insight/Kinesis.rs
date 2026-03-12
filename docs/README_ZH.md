@@ -1,6 +1,6 @@
 # Kinesis.rs v0.6.0
 
-> "Kinesis: 将市场的耳语，转化为链上的动能。"
+> "Kinesis：感知市场情绪，点亮链上生机"
 
 Kinesis.rs 是一个专为 LLM Agent 设计的无状态、JSON 优先、多链加密交易执行层。
 

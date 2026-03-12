@@ -44,12 +44,7 @@ Kinesis.rs is built for the agentic future. To support the ongoing testing and v
 
 *All donations are used to cover network fees and liquidity costs for real-world execution testing.*
 
-## Troubleshooting (macOS)
-
-If you see `[1] killed` when running the binary on macOS, it is due to Gatekeeper quarantine. Run the following commands:
-
-```bash
-xattr -d com.apple.quarantine ~/Downloads/kinesis-rs
-chmod +x ~/Downloads/kinesis-rs
-./kinesis-rs --version
 ```
+
+## Troubleshooting
+- **macOS Execution**: If you see `killed`, refer to the [macOS Troubleshooting Guide](docs/TROUBLESHOOTING_MACOS.md).

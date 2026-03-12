@@ -82,3 +82,11 @@ Kinesis.rs is built for the agentic future. To support the ongoing testing and v
 - **macOS Execution**: If you see `killed`, refer to the [macOS Troubleshooting Guide](docs/TROUBLESHOOTING_MACOS.md).
 ## Project Roadmap
 See [ROADMAP.md](docs/ROADMAP.md) for planned features and milestones.
+
+## Disclaimer
+
+Kinesis.rs is a tool for **technical research and educational purposes only**.
+
+- This project does **NOT** constitute financial, investment, or legal advice.
+- Cryptocurrency trading involves significant risk of loss. The developers are not responsible for any financial losses, bugs, or security incidents incurred through the use of this software.
+- **Use at your own risk.** Always perform your own research (DYOR) before executing any on-chain transactions.

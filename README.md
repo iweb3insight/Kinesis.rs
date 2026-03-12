@@ -28,7 +28,7 @@ Kinesis.rs is built with a "Zero-Trust" approach to private key management and o
     - **Open Source Core**: Every line of the execution logic is available for public audit.
     - **Verified Contracts**: FreedomRouter Proxy and Implementation are fully verified on BscScan for public scrutiny.
 
-## 3. Security First
+### 3. Security First
 
 At Kinesis.rs, we recognize that our users entrust us with the execution of their financial strategies. **Data security and private key protection are our highest priorities.** Every feature is designed with a "Security-by-Default" mindset to ensure that your sensitive credentials never leave your local environment.
 

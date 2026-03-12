@@ -4,7 +4,7 @@ use clap::Parser;
 use alloy_primitives::U256;
 use std::str::FromStr;
 use solana_sdk::pubkey::Pubkey;
-use solana_claw_coin_cli::{
+use kinesis_rs::{
     cli::{Cli, Commands},
     config::Config,
     types::{Stage, TradeResult, TradeError, Chain},
@@ -32,7 +32,7 @@ async fn main() {
 
     match &cli.command {
         Commands::Buy(args) => {
-            if let Err(e) = solana_claw_coin_cli::cli::validate_args(args.slippage, args.tip_rate) {
+            if let Err(e) = kinesis_rs::cli::validate_args(args.slippage, args.tip_rate) {
                 eprintln!("Invalid arguments: {}", e);
                 std::process::exit(1);
             }
@@ -194,7 +194,7 @@ async fn main() {
             }
         }
         Commands::Sell(args) => {
-            if let Err(e) = solana_claw_coin_cli::cli::validate_args(args.slippage, args.tip_rate) {
+            if let Err(e) = kinesis_rs::cli::validate_args(args.slippage, args.tip_rate) {
                 eprintln!("Invalid arguments: {}", e);
                 std::process::exit(1);
             }
@@ -577,7 +577,7 @@ async fn main() {
                 std::process::exit(1);
             }
 
-            let detector = solana_claw_coin_cli::solana::detector::SolanaPathDetector::new(config.sol_rpc_url.clone())
+            let detector = kinesis_rs::solana::detector::SolanaPathDetector::new(config.sol_rpc_url.clone())
                 .await
                 .expect("Failed to create SolanaPathDetector");
             
@@ -601,9 +601,9 @@ async fn main() {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use solana_claw_coin_cli::cli::{Cli, Commands};
+    use kinesis_rs::cli::{Cli, Commands};
     use serde_json::json;
-    use solana_claw_coin_cli::types::{Chain, TradeError};
+    use kinesis_rs::types::{Chain, TradeError};
 
     #[test]
     fn test_trade_result_success_serialization() {

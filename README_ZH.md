@@ -35,19 +35,6 @@ Kinesis.rs 采用“零信任”原则管理私钥与链上交互。
 3. 编译: `cargo build --release`。
 4. 运行: `./target/release/kinesis-rs balance --chain solana`。
 
-## 赞助支持
-
-Kinesis.rs 致力于推动 Agent 驱动的自动交易未来。为了支持我们在主网（Solana/BSC/ETH）持续进行功能验证与实战测试，欢迎通过以下地址进行赞助：
-
-- **SOL**: `UFePGDrDS8xmutWkLKKGfgKUvacvLLSyQZ66AacKYUZ`
-- **BNB**: `0x1580b9604c47Dbef3A61ae5a3deFF7f6611f3C28`
-- **ETH**: `0x1580b9604c47Dbef3A61ae5a3deFF7f6611f3C28`
-
-*所有赞助资金均将直接用于支付真实环境验证所需的 Gas 费用及流动性测试成本。*
-
-## 常见问题处理
-- **macOS 运行问题**: 如果运行出现 `killed`，请参考 [macOS 故障处理指南](docs/TROUBLESHOOTING_MACOS.md)。
-
 ## CLI 使用说明
 
 ```text
@@ -72,3 +59,16 @@ Options:
   -h, --help             Print help (see more with '--help')
   -V, --version          Print version
 ```
+
+## 赞助支持
+
+Kinesis.rs 致力于推动 Agent 驱动的自动交易未来。为了支持我们在主网（Solana/BSC/ETH）持续进行功能验证与实战测试，欢迎通过以下地址进行赞助：
+
+- **SOL**: `UFePGDrDS8xmutWkLKKGfgKUvacvLLSyQZ66AacKYUZ`
+- **BNB**: `0x1580b9604c47Dbef3A61ae5a3deFF7f6611f3C28`
+- **ETH**: `0x1580b9604c47Dbef3A61ae5a3deFF7f6611f3C28`
+
+*所有赞助资金均将直接用于支付真实环境验证所需的 Gas 费用及流动性测试成本。*
+
+## 常见问题处理
+- **macOS 运行问题**: 如果运行出现 `killed`，请参考 [macOS 故障处理指南](docs/TROUBLESHOOTING_MACOS.md)。

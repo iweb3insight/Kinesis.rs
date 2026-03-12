@@ -2,7 +2,7 @@
 const { execSync } = require('child_process');
 
 function check() {
-  console.log("Checking FreedomAgent Environment...");
+  console.log("Checking Kinesis.rs Environment...");
   const vars = ['BSC_RPC_URL', 'SOL_RPC_URL', 'BSC_PRIVATE_KEY_1', 'SOL_PRIVATE_KEY_1'];
   vars.forEach(v => {
     if (process.env[v]) {

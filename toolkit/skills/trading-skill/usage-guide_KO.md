@@ -1,7 +1,7 @@
-# FreedomAgent 상세 사용 가이드
+# Kinesis.rs 상세 사용 가이드
 
 ## 1. 핵심 설계 이념
-FreedomAgent는 **에이전트 우선(Agent-First)** 거래 시스템입니다. 모든 설계는 LLM 에이전트(Gemini, Claude 등)가 복잡한 거래를 안전하고 정확하게 실행할 수 있도록 이루어졌습니다.
+Kinesis.rs는 **에이전트 우선(Agent-First)** 거래 시스템입니다. 모든 설계는 LLM 에이전트(Gemini, Claude 등)가 복잡한 거래를 안전하고 정확하게 실행할 수 있도록 이루어졌습니다.
 
 - **상태 비저장(Stateless)**: 각 명령에는 실행에 필요한 모든 컨텍스트가 포함되어 있습니다.
 - **JSON 우선**: 에이전트가 `TradeResult`를 정확하게 파싱할 수 있도록 항상 `--json` 플래그를 사용하는 것을 권장합니다.

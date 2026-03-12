@@ -1,7 +1,7 @@
-# FreedomAgent 详细使用指南
+# Kinesis.rs 详细使用指南
 
 ## 1. 核心设计理念
-FreedomAgent 是一个 **Agent-First** 的交易系统。它的所有设计都是为了让 LLM Agent（如 Gemini, Claude）能够安全、精确地执行复杂交易。
+Kinesis.rs 是一个 **Agent-First** 的交易系统。它的所有设计都是为了让 LLM Agent（如 Gemini, Claude）能够安全、精确地执行复杂交易。
 
 - **无状态 (Stateless)**: 每一条命令都包含执行所需的所有上下文。
 - **JSON 优先**: 推荐始终使用 `--json` 标志，以便 Agent 精确解析 `TradeResult`。

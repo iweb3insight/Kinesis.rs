@@ -1,7 +1,7 @@
-# FreedomAgent Detailed Usage Guide
+# Kinesis.rs Detailed Usage Guide
 
 ## 1. Core Design Philosophy
-FreedomAgent is an **Agent-First** trading system. Every design choice is made to ensure LLM Agents (like Gemini, Claude) can execute complex trades safely and precisely.
+Kinesis.rs is an **Agent-First** trading system. Every design choice is made to ensure LLM Agents (like Gemini, Claude) can execute complex trades safely and precisely.
 
 - **Stateless**: Each command contains all the context needed for execution.
 - **JSON-First**: We recommend always using the `--json` flag so the Agent can precisely parse the `TradeResult`.

@@ -2,11 +2,11 @@
 
 > "Kinesis: 시장의 정서를 감지하고, 온체인의 생명력을 밝히다."
 
+Kinesis.rs는 LLM 에이전트를 위해 설계된 상태 비저장(stateless), JSON 우선, 멀티체인 암호화폐 거래 실행 레이어입니다.
+
 <div align="center">
   <img src="kinesis-rs.png" width="640" />
 </div>
-
-Kinesis.rs는 LLM 에이전트를 위해 설계된 상태 비저장(stateless), JSON 우선, 멀티체인 암호화폐 거래 실행 레이어입니다.
 
 ## 보안 아키텍처
 

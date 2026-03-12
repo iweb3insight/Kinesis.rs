@@ -78,8 +78,6 @@ Kinesis.rs is built for the agentic future. To support the ongoing testing and v
 
 *All donations are used to cover network fees and liquidity costs for real-world execution testing.*
 
-## Troubleshooting
-- **macOS Execution**: If you see `killed`, refer to the [macOS Troubleshooting Guide](docs/TROUBLESHOOTING_MACOS.md).
 ## Project Roadmap
 See [ROADMAP.md](docs/ROADMAP.md) for planned features and milestones.
 

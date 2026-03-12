@@ -66,5 +66,3 @@ Kinesis.rs は、実環境での継続的なテストのために寄付を歓迎
 - **SOL**: `UFePGDrDS8xmutWkLKKGfgKUvacvLLSyQZ66AacKYUZ`
 - **BNB/ETH**: `0x1580b9604c47Dbef3A61ae5a3deFF7f6611f3C28`
 
-## トラブルシューティング
-- **macOS**: `killed` と表示される場合は、[macOS トラブルシューティングガイド](../docs/TROUBLESHOOTING_MACOS.md)を参照してください。

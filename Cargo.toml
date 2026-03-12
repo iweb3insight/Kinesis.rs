@@ -29,7 +29,7 @@ alloy = { version = "0.8.3", features = ["full"] }
 # Explicitly add these to help sol! macros resolve top-level package names
 alloy-sol-types = "0.8.26"
 alloy-primitives = "0.8.26"
-alloy-contract = "0.8.3"
+alloy-contract = "0.12.6"
 solana-sdk = "4.0.1"
 spl-associated-token-account = "8.0.0"
 rand = "0.8.5"

@@ -1,5 +1,3 @@
-[**简体中文**](docs/README_ZH.md) | [**繁體中文**](docs/README_TW.md) | [**日本語**](docs/README_JA.md) | [**한국어**](docs/README_KO.md)
-
 # Kinesis.rs v0.6.0
 
 > "Kinesis: Converting market whispers into on-chain momentum."
@@ -10,8 +8,11 @@ Kinesis.rs is a stateless, JSON-first, multi-chain crypto trading execution laye
   <img src="docs/kinesis-rs.png" width="640" />
 </div>
 
+## Security First Commitment
 
-## Security First CommitmentnnAt Kinesis.rs, we recognize that our users entrust us with the execution of their financial strategies. **Data security and private key protection are our highest priorities.** Every feature is designed with a "Security-by-Default" mindset to ensure that your sensitive credentials never leave your local environment.n## Security Architecture
+At Kinesis.rs, we recognize that our users entrust us with the execution of their financial strategies. **Data security and private key protection are our highest priorities.** Every feature is designed with a "Security-by-Default" mindset to ensure that your sensitive credentials never leave your local environment.
+
+## Security Architecture
 
 Kinesis.rs is built with a "Zero-Trust" approach to private key management and on-chain interaction.
 
@@ -24,7 +25,7 @@ Kinesis.rs is built with a "Zero-Trust" approach to private key management and o
 ### 2. On-Chain Safeguards
 - **Transaction Deadlines**: All BSC `buy` and `sell` operations include mandatory on-chain deadlines to prevent "stuck" transactions from being executed at stale prices.
 - **Dynamic Approval Targeting**: The `approve` logic uses `approveTarget` returned directly by verified contracts, eliminating the risk of granting allowance to malicious or incorrect addresses.
-- **Transparency & Audibility
+- **Transparency & Audibility**:
     - **Open Source Core**: Every line of the execution logic is available for public audit.
     - **Verified Contracts**: FreedomRouter Proxy and Implementation are fully verified on BscScan for public scrutiny.
 
@@ -79,9 +80,6 @@ Kinesis.rs is built for the agentic future. To support the ongoing testing and v
 
 *All donations are used to cover network fees and liquidity costs for real-world execution testing.*
 
-## Project Roadmap
-See [ROADMAP.md](docs/ROADMAP.md) for planned features and milestones.
-
 ## Disclaimer
 
 Kinesis.rs is a tool for **technical research and educational purposes only**.
@@ -89,3 +87,6 @@ Kinesis.rs is a tool for **technical research and educational purposes only**.
 - This project does **NOT** constitute financial, investment, or legal advice.
 - Cryptocurrency trading involves significant risk of loss. The developers are not responsible for any financial losses, bugs, or security incidents incurred through the use of this software.
 - **Use at your own risk.** Always perform your own research (DYOR) before executing any on-chain transactions.
+
+## Project Roadmap
+See [ROADMAP.md](docs/ROADMAP.md) for planned features and milestones.

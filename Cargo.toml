@@ -27,7 +27,7 @@ bs58 = "0.5"
 alloy = { version = "0.8.3", features = ["full"] }
 
 # Explicitly add these to help sol! macros resolve top-level package names
-alloy-sol-types = "0.8.26"
+alloy-sol-types = "1.5.7"
 alloy-primitives = "0.8.26"
 alloy-contract = "0.8.3"
 solana-sdk = "4.0.1"

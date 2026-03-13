@@ -1,8 +1,17 @@
+
+> 🚀 **Attention:** We noticed a surge of 128+ unique cloners recently! If you are using KinesisRS for your AI Agents, please join the discussion on [v0.7.0 Roadmap & Agent Integration](https://github.com/iweb3insight/KinesisRS/issues/19) to help us shape the Agent-native future.
+> 
+
 # KinesisRS Rust v1.0
 
 A stateless, JSON-first, multi-chain crypto trading execution layer for LLM Agents.
 
-> 🚀 **Attention:** We noticed a surge of 128+ unique cloners recently! If you are using KinesisRS for your AI Agents, please join the discussion on [v0.7.0 Roadmap & Agent Integration](https://github.com/iweb3insight/KinesisRS/issues/19) to help us shape the Agent-native future.
+---
+
+<div align="center">
+  <img src="docs/kinesis-rs.png" width="640" />
+</div>
+
 
 ## Features
 - **Stateless & Agent-First**: Communicates via standard JSON `TradeResult` protocol.

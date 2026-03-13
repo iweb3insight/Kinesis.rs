@@ -2,6 +2,8 @@
 
 > "Kinesis: Converting market whispers into on-chain momentum."
 
+> 🚀 **Attention:** We noticed a surge of 128+ unique cloners recently! If you are using KinesisRS for your AI Agents, please join the discussion on [v0.7.0 Roadmap & Agent Integration](https://github.com/iweb3insight/KinesisRS/issues/19) to help us shape the Agent-native future.
+
 Kinesis.rs is a stateless, JSON-first, Agent-native trading execution layer designed primarily for LLM Agents—built from the ground up to be perfectly **Agentic Friendly**.
 
 ---

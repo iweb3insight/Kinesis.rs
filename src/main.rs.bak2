@@ -730,43 +730,6 @@ async fn main() {
                 }
             }
         }
-        Commands::Agent(args) => {
-            // Handle Agent command
-            match &args.command {
-                AgentCommands::Setup { platform } => {
-                    // Find the agent-setup.sh script
-                    let script_path = std::path::PathBuf::from("scripts/agent-setup.sh");
-                    
-                    if !script_path.exists() {
-                        eprintln!("Error: agent-setup.sh not found. Please ensure you are running from the project directory.");
-                        std::process::exit(1);
-                    }
-                    
-                    println!("ℹ️  正在配置 {}...", platform);
-                    
-                    let status = std::process::Command::new("bash")
-                        .arg(&script_path)
-                        .arg("setup")
-                        .arg(platform)
-                        .status();
-                    
-                    match status {
-                        Ok(s) if s.success() => {
-                            println!("✅ {} 配置完成！", platform);
-                            std::process::exit(0);
-                        }
-                        Ok(s) => {
-                            eprintln!("Agent setup script failed with exit code: {:?}", s.code());
-                            std::process::exit(1);
-                        }
-                        Err(e) => {
-                            eprintln!("Failed to execute agent setup script: {}", e);
-                            std::process::exit(1);
-                        }
-                    }
-                }
-            }
-        }
         Commands::Mcp => {
             // Start MCP server for AI agent integration
             tracing::info!("Starting MCP server...");

@@ -91,7 +91,7 @@ KinesisRS is built for the agentic future. To support the ongoing testing and va
 KinesisRS is a tool for **technical research and educational purposes only**.
 
 - This project does **NOT** constitute financial, investment, or legal advice.
-- Cryptocurrency trading involves significant risk of loss. The developers are not responsible for any financial losses, bugs, or security incidents incurred through the use of this software.
+- **Cryptocurrency trading involves significant risk of loss**. The developers are not responsible for any financial losses, bugs, or security incidents incurred through the use of this software.
 - **Use at your own risk.** Always perform your own research (DYOR) before executing any on-chain transactions.
 
 ## Project Roadmap

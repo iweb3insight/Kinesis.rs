@@ -60,7 +60,7 @@ jobs:
           7z a ../../../${{ matrix.asset_name }} kinesis-rs.exe
 
       - name: Upload Release Assets
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: ${{ matrix.asset_name }}
           tag_name: ${{ github.ref_name }}
